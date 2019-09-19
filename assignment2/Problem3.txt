@@ -1,11 +1,11 @@
 The first case allows for much more re-use of the base class methods. This is allows for more
-re-use and you have to write much less code as compared to the second case. The second case
+re-use and you must write much less code as compared to the second case. The second case
 can be expanded upon to have a Shape interface, which has virtual ComputeArea and
 ComputePerimeter methods which each inheriting class can define itself. This allows for
 a cleaner interface in the long run because in the code that uses the classes, you can instantiate
-a object of the base class and pass in an object of any of the inherited classes. This reduces
+an object of the base class and pass in an object of any of the inherited classes. This reduces
 changing of the logic code. With this and a builder class to build objects of certain shapes, you
-can easily test your code by mocking the interface, etc. This also allows the devloper using this
+can easily test your code by mocking the interface, etc. This also allows the developer using this
 API to not care about the specifics of a class, he/she just knows that there is a ComputeArea and
 ComputePerimeter, which will return an int that represents that value no matter what the object is
 underneath, abstracting away some of the specifics, making the object easier to work with.

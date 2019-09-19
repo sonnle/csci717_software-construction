@@ -1,0 +1,11 @@
+The difference between the two really is on the perspective of the tasks.
+The flat-earth view doesn’t really place an importance on any particular task,
+making some of the less important tasks seem like a bunch of red tape when developing.
+The round-earth view has a more complete view, as it has distinction that coding and
+debugging is at the core of construction, but there are also other things such as
+testing that are required as well. I think the idea is very important because as
+I’ve seen a lot in industry, as the code size and teams get bigger, the emphasis
+on the “red-tape” items become more significant because it is required for effective
+collaboration between development teams. When I was a student, this didn’t matter
+s much because when you develop by yourself you understand your code completely and
+ no one else needs to so there is less emphasis on the “red-tape” items.

@@ -1,0 +1,9 @@
+a.Software should be like electricity, it should just work
+b.Softwaredeveloperis like a lawyer, a good one combines his skills with his experiences
+c.Software is like a car; you use it very frequently without many problems
+d.Internet is like an information highway
+e.The internet is a cyberspace
+f.Software is like growing a cropg.“Writing code”
+h.Running of the squirrels
+i.Software is like herding cats
+j.Technical debt

@@ -1,0 +1,9 @@
+Design is extremely important to construction. I think that at the end of the day
+design and architecture are the most important part of software development, as it
+lays the foundation on which all your code is written upon. If there was a bad
+architectural decision made early in the software development process, you may not
+know about the consequences until much later in development, when it is too late
+to make to correct modifications without significant rework. I think that design
+and architecture decisions should be thought upon carefully as the decisions that
+are made might make or break the maintenance effort and therefore drive the success
+of the project.

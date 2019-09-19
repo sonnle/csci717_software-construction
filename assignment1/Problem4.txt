@@ -1,0 +1,12 @@
+The author explains that building a houseis similar to the construction of a building because
+they both describe complex things, and the consequences of poor design can result in terrible
+final products. He describes the build process, “First you have to decide what kind of house
+you want tobuild—analogous in software development to problem definition. Then you and
+anarchitect have to come up with a general design and get it approved. This is similar to
+software architectural design.” He also describes the off the shelf vs. in house code as being
+custom but maybe more efficient, and goes into the penalty of failure for a large software
+project is the same as a failure of a large building, resulting in many losses.
+I think the biggest difference between the two is that software is constantly evolving
+whereas a building is planned and then executed on. When working on software however,
+the requirements from stakeholders are forever changing and software must be able to adapt to
+those newchanges without high levels of effort to be successful.

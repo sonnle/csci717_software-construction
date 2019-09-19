@@ -1,0 +1,10 @@
+The most obvious case in which you would build your own software instead of buying is when
+you are doing something unique and new in the space. When there is no existing software
+available, you must build. An example of when you would want to buy is when the system
+is extremely complex to maintain, and a huge effort to build from scratch, such as cloud services.
+Starting your own cloud service for an in house use would be very ineffective because it would
+only serve one customer, when you can get the same result by using AWS or a similar service.
+At work a lot of our custom Linux distributions are done in house, but they use an existing
+framework called Yocto as a base. This combines both methodologies that gives your software
+the uniqueness it needs but not all of the costs that is associated with creating something
+from scratch.

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sle/repos/csci717_software-construction/assignment2
+CMAKE_SOURCE_DIR = /home/sle/repos/csci717_software-construction/2assignment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sle/repos/csci717_software-construction/assignment2
+CMAKE_BINARY_DIR = /home/sle/repos/csci717_software-construction/2assignment
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sle/repos/csci717_software-construction/assignment2/CMakeFiles /home/sle/repos/csci717_software-construction/assignment2/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sle/repos/csci717_software-construction/2assignment/CMakeFiles /home/sle/repos/csci717_software-construction/2assignment/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sle/repos/csci717_software-construction/assignment2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sle/repos/csci717_software-construction/2assignment/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named assignment2Tests
+# Target rules for targets named assignment2Tests.o
 
 # Build rule for target.
-assignment2Tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assignment2Tests
-.PHONY : assignment2Tests
+assignment2Tests.o: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assignment2Tests.o
+.PHONY : assignment2Tests.o
 
 # fast build rule for target.
-assignment2Tests/fast:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/build
-.PHONY : assignment2Tests/fast
+assignment2Tests.o/fast:
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/build
+.PHONY : assignment2Tests.o/fast
 
 Problem1.o: Problem1.cpp.o
 
@@ -129,7 +129,7 @@ Problem1.o: Problem1.cpp.o
 
 # target to build an object file
 Problem1.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/Problem1.cpp.o
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/Problem1.cpp.o
 .PHONY : Problem1.cpp.o
 
 Problem1.i: Problem1.cpp.i
@@ -138,7 +138,7 @@ Problem1.i: Problem1.cpp.i
 
 # target to preprocess a source file
 Problem1.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/Problem1.cpp.i
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/Problem1.cpp.i
 .PHONY : Problem1.cpp.i
 
 Problem1.s: Problem1.cpp.s
@@ -147,7 +147,7 @@ Problem1.s: Problem1.cpp.s
 
 # target to generate assembly for a file
 Problem1.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/Problem1.cpp.s
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/Problem1.cpp.s
 .PHONY : Problem1.cpp.s
 
 Problem2.o: Problem2.cpp.o
@@ -156,7 +156,7 @@ Problem2.o: Problem2.cpp.o
 
 # target to build an object file
 Problem2.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/Problem2.cpp.o
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/Problem2.cpp.o
 .PHONY : Problem2.cpp.o
 
 Problem2.i: Problem2.cpp.i
@@ -165,7 +165,7 @@ Problem2.i: Problem2.cpp.i
 
 # target to preprocess a source file
 Problem2.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/Problem2.cpp.i
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/Problem2.cpp.i
 .PHONY : Problem2.cpp.i
 
 Problem2.s: Problem2.cpp.s
@@ -174,7 +174,7 @@ Problem2.s: Problem2.cpp.s
 
 # target to generate assembly for a file
 Problem2.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/Problem2.cpp.s
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/Problem2.cpp.s
 .PHONY : Problem2.cpp.s
 
 test.o: test.cpp.o
@@ -183,7 +183,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/test.cpp.o
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -192,7 +192,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/test.cpp.i
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -201,7 +201,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment2Tests.dir/build.make CMakeFiles/assignment2Tests.dir/test.cpp.s
+	$(MAKE) -f CMakeFiles/assignment2Tests.o.dir/build.make CMakeFiles/assignment2Tests.o.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -211,7 +211,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... assignment2Tests"
+	@echo "... assignment2Tests.o"
 	@echo "... edit_cache"
 	@echo "... Problem1.o"
 	@echo "... Problem1.i"

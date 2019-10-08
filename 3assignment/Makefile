@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named assignment3Tests
+# Target rules for targets named assignment3Tests.o
 
 # Build rule for target.
-assignment3Tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assignment3Tests
-.PHONY : assignment3Tests
+assignment3Tests.o: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assignment3Tests.o
+.PHONY : assignment3Tests.o
 
 # fast build rule for target.
-assignment3Tests/fast:
-	$(MAKE) -f CMakeFiles/assignment3Tests.dir/build.make CMakeFiles/assignment3Tests.dir/build
-.PHONY : assignment3Tests/fast
+assignment3Tests.o/fast:
+	$(MAKE) -f CMakeFiles/assignment3Tests.o.dir/build.make CMakeFiles/assignment3Tests.o.dir/build
+.PHONY : assignment3Tests.o/fast
 
 BankAccount.o: BankAccount.cpp.o
 
@@ -129,7 +129,7 @@ BankAccount.o: BankAccount.cpp.o
 
 # target to build an object file
 BankAccount.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment3Tests.dir/build.make CMakeFiles/assignment3Tests.dir/BankAccount.cpp.o
+	$(MAKE) -f CMakeFiles/assignment3Tests.o.dir/build.make CMakeFiles/assignment3Tests.o.dir/BankAccount.cpp.o
 .PHONY : BankAccount.cpp.o
 
 BankAccount.i: BankAccount.cpp.i
@@ -138,7 +138,7 @@ BankAccount.i: BankAccount.cpp.i
 
 # target to preprocess a source file
 BankAccount.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment3Tests.dir/build.make CMakeFiles/assignment3Tests.dir/BankAccount.cpp.i
+	$(MAKE) -f CMakeFiles/assignment3Tests.o.dir/build.make CMakeFiles/assignment3Tests.o.dir/BankAccount.cpp.i
 .PHONY : BankAccount.cpp.i
 
 BankAccount.s: BankAccount.cpp.s
@@ -147,7 +147,7 @@ BankAccount.s: BankAccount.cpp.s
 
 # target to generate assembly for a file
 BankAccount.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment3Tests.dir/build.make CMakeFiles/assignment3Tests.dir/BankAccount.cpp.s
+	$(MAKE) -f CMakeFiles/assignment3Tests.o.dir/build.make CMakeFiles/assignment3Tests.o.dir/BankAccount.cpp.s
 .PHONY : BankAccount.cpp.s
 
 test.o: test.cpp.o
@@ -156,7 +156,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment3Tests.dir/build.make CMakeFiles/assignment3Tests.dir/test.cpp.o
+	$(MAKE) -f CMakeFiles/assignment3Tests.o.dir/build.make CMakeFiles/assignment3Tests.o.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -165,7 +165,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment3Tests.dir/build.make CMakeFiles/assignment3Tests.dir/test.cpp.i
+	$(MAKE) -f CMakeFiles/assignment3Tests.o.dir/build.make CMakeFiles/assignment3Tests.o.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -174,7 +174,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment3Tests.dir/build.make CMakeFiles/assignment3Tests.dir/test.cpp.s
+	$(MAKE) -f CMakeFiles/assignment3Tests.o.dir/build.make CMakeFiles/assignment3Tests.o.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... assignment3Tests"
+	@echo "... assignment3Tests.o"
 	@echo "... edit_cache"
 	@echo "... BankAccount.o"
 	@echo "... BankAccount.i"

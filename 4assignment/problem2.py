@@ -19,8 +19,8 @@ def main():
     print str(a_time / 100)
     print str(b_time / 100)
 
-    // a_time = .45s/run
-    // b_time = .20s/run
+    # a_time = .45s/run
+    # b_time = .20s/run
 
 def finda(value, search_list):
     found = False
